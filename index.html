@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mang bole sehalu inih</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="person-selector">
+        <button class="button person-selector-button active-person" id="Jake-selector">Jake</button>
+        <button class="button person-selector-button" id="Feli-selector">Feli</button>
+    </div>
+    <div class="chat-container">
+        <h2 class="chat-header">Jake chatting...</h2>
+
+        <div class="chat-massages">
+            <div class="massages blue-bg">
+                <div class="massages-sender">Jake</div>
+                <div class="massages-text">hey babe, how's your day?</div>
+                <div class="massages-times">10:03 AM</div>
+            </div>
+            <div class="massages pink-bg">
+                <div class="massages-sender">Feli</div>
+                <div class="massages-text">everything's fine</div>
+                <div class="massages-times">10:03 AM</div>
+            </div>
+        </div>
+
+        <form class="chat-input-form">
+            <input type=" " class="chat-input" required placeholder="Type here, Jake..." /> 
+            <button type="submit" class="button send-button">Send</button>
+        </form>
+        <button class="button clear-chat-button">Clear Chat</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
